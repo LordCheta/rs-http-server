@@ -1,3 +1,20 @@
 fn main() {
-    println!("Hello, world!");
+    
+}
+
+
+struct Server {
+    address: String
+}
+
+impl Server {
+    fn new(address: String) -> Self {
+        Self {
+            address
+        }
+    }
+
+    fn run(self) {
+        
+    }
 }
